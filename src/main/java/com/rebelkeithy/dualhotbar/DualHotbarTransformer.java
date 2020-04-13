@@ -38,7 +38,7 @@ public class DualHotbarTransformer implements IClassTransformer
 			}
 			else
 			{
-				boolean is1710 = containsMethod("h", "()add;", data);
+				boolean is1710 = containsMethod("h", "()Ladd;", data);
 				
 				if(is1710)
 				{
